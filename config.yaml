@@ -1,0 +1,4 @@
+S3:
+  region: ru-central1
+  url: https://storage.yandexcloud.net
+  partitionID: yc
