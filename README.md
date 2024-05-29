@@ -7,7 +7,7 @@ So you need to install on your machine ffmpeg.
 
 *Ubuntu 22.04*
 ```
-sudo apt intall ffmpeg
+sudo apt install ffmpeg
 ```
 
 ## Configure the access for ObjectStorage

@@ -13,8 +13,8 @@ type Config struct {
 	} `yaml:"S3"`
 }
 
-func ParseConfig() (*Config, error) {
-	yamlFile, err := os.ReadFile("config.yaml")
+func ParseConfig(path string) (*Config, error) {
+	yamlFile, err := os.ReadFile(path)
 	if err != nil {
 		return nil, err
 	}
